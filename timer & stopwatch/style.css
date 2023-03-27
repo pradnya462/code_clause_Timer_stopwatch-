@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(12, 12, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.container h1{
+    color: rgb(246, 251, 251);
+    padding: 20px;
+    font-size: 40px;
+}
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(32, 31, 92);
+}
+#buttons{
+    display: flex;
+}
+button{
+    padding: 20px;
+    background-color: rgb(32, 31, 92);
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    width:100px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 253);
+    transition: all 0.5s;
+    width: fit-content;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    box-shadow: none;
+    transition: all 0.5;
+}
